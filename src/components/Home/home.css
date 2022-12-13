@@ -1,0 +1,206 @@
+.home{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+/* ===============HOME LEFT SIDE========================================================== */
+
+.home_left_items{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home_left_item{
+    margin: 10px;
+    border: 1px solid rgb(98, 63, 164);
+    padding: 6px 12px;
+    height: 120px;
+    width: 130px;
+    border-radius: 15px;
+    background: rgb(10, 6, 43);
+}
+.left_item_title{
+    display: flex;
+    margin: 5px 0 0 0;
+    align-items: center;
+    color: rgb(141, 140, 139);
+}
+.left_item_title svg{
+    margin: 0 5px;
+}
+.home_left_item h1{
+    font-size: 20px;
+    margin: 6px;
+}
+.suntime h1{
+    font-size: 18px;
+}
+
+
+/* ------------------------ULTRA VIOLET------------------- */
+
+.uv h1{
+    margin: 5px 10px ;
+}
+.uv h2{
+    margin: 0 0 15px 0;
+}
+
+
+
+
+
+
+.uv_scale{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 97%;
+    margin: auto;
+    height: 5px;
+    border-radius: 10px;
+    background: rgb(3,0,78);
+    background: linear-gradient(90deg, rgba(3,0,78,1) 0%, rgba(103,17,146,1) 68%, rgba(255,0,0,1) 100%); 
+}
+.uv_scale span{
+    position: absolute;
+    border-radius: 50%;
+    background: rgb(0, 222, 204);
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 0 5px 1px rgb(0, 173, 173);
+}
+
+/* ------------------------HUMIDITY------------------- */
+
+.humidity h1{
+    margin: 20px 0;
+}
+
+
+
+.humidity_scale{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 97%;
+    margin: auto;
+    height: 20px;
+    border-radius: 3px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,138,146,1) 60%, rgba(0,10,255,1) 100%); 
+}
+
+
+
+
+.humidity_scale span{
+    position: absolute;
+    background: rgb(8, 0, 255);
+    width: 4px;
+    height: 25px;
+    box-shadow: 0 0 5px 1px rgb(109, 114, 224);
+}
+
+/* ------------------------WIND------------------- */
+
+.wind{
+    height: 130px;
+}
+
+.wind_item{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wind_compass{
+    width: 80px;
+    height: 80px;
+    border: white 3px dotted;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.wind_compass h1 div{
+    font-size: 12px;
+
+}
+.wind_compass h1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 30;
+}
+
+.wind_compass .pos{
+    font-size: 13px;
+    background: rgb(10, 6, 43);
+    padding: 4px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+.compass_arrow{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background: red;
+    height: 46%;
+    width: 2px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transform-origin: bottom;
+}
+.compass_arrow::after{
+    content: '△';
+    color: red;
+    position: absolute;
+    top: 0px;
+    margin: -8px 0 0 -5px;
+    background: rgb(10, 6, 43);
+}
+.compass_west{
+    position: absolute;
+    left: -14px;
+}
+.compass_north{
+    position: absolute;
+    top: -14px;
+    padding-top: 2px;
+}
+.compass_east{
+    position: absolute;
+    right: -12px;
+}
+
+.compass_south{
+    position: absolute;
+    bottom: -14px;
+}
+
+/* ------------------------AIR QUALITY------------------- */
+.air_quality{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+/* ===============HOME RIGHT SIDE========================================================== */
+
+
+.weather_item{
+
+    background-image: url('../../assets/img/icons/bg.svg');
+}
