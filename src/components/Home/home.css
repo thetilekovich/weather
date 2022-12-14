@@ -201,6 +201,49 @@
 
 
 .weather_item{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 10px;
     background-image: url('../../assets/img/icons/bg.svg');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 160px;
+}
+.weather_item_left{
+    margin: 0 0 10px 10px;
+}
+.weather_left_temp h1{
+    font-size: 35px; 
+    margin: 0 0 -5px 0;
+}
+.weather_left_temp{
+    margin: 0 0 40px 5px;
+}
+.weather_left_temp p{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(211, 211, 211);
+}
+
+.weather_left_bottom{
+    margin: 0 0 5px 0;
+}
+.weather_left_bottom h4{
+    font-size: 16px;
+    color: antiquewhite;
+}
+
+.weather_icon_gen{
+    margin-top: -30px;
+    align-self: flex-start;
+}
+
+.weather_text{
+    text-align: center;
+    font-size: 15px;
+}
+.weather_icon{
+    width: 90px;
 }

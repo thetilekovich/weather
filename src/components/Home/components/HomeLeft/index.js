@@ -17,7 +17,7 @@ function HomeLeft(props) {
             setSunrise(await results.results.sunrise)
             setSunset(await results.results.sunset)
         } catch (e) {
-            console.log('error white getting sunset and sunrise time')
+            console.log('error while getting sunset and sunrise time')
         }
     }
     // const getAirIq = async () => {
